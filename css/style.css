@@ -44,7 +44,7 @@ body {
     height: 100px;
     position: absolute;
     transform: perspective(0px) rotateY(0deg);
-    /* background-image: url(/images/bg5.JPG); */
+    background-image: url(/images/bg5.JPG);
     /* jauh akan mengecil sudut yang didekat kita akan membesar */
     /* border: 1px solid #000000; */
     backface-visibility: hidden;
