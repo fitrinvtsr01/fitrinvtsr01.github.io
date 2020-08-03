@@ -43,10 +43,10 @@ body {
     width: 100px;
     height: 100px;
     position: absolute;
-    transform: perspective(600px) rotateY(0deg);
-    background-image: url(/images/bg5.JPG);
+    transform: perspective(0px) rotateY(0deg);
+    /* background-image: url(/images/bg5.JPG); */
     /* jauh akan mengecil sudut yang didekat kita akan membesar */
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     backface-visibility: hidden;
     /* jika kotak diputar maka tampilan belakangnyanya hidden */
     transition: transform 1s linear 0s;
@@ -56,7 +56,7 @@ body {
     width: 100px;
     height: 100px;
     position: absolute;
-    transform: perspective(600px) rotateY(180deg);
+    transform: perspective(0px) rotateY(180deg);
     backface-visibility: hidden;
     transition: transform 1s linear 0s;
     font-size: 60px;
